@@ -1,0 +1,223 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #2A3032;
+}
+
+/* navigation bar */
+nav {
+  display: flex;
+  background-color: #FEE16B;
+  height: 7vh;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+
+.nav-left {
+  padding-left: 90px;
+}
+
+.nav-right {
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-left a img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2A3032;
+}
+
+nav ul li a.nav-active {
+  color: #2A3032;
+  font-weight: bold;
+}
+
+.nav-right a {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: #2A3032;
+  border: none;
+  border-radius: 20px;
+  color: #FEE16B;
+  text-decoration: none;
+}
+
+/* home/profile */
+.wrapper {
+  display: flex;
+  width: 86vw;
+  margin: 20vh auto;
+  background-color: #FEE16B;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 30px rgb(254, 225, 107, .8);
+}
+
+.wrapper .left {
+  flex: 60%;
+  display: flex;
+  position: relative;
+}
+
+.wrapper .left div {
+  margin: 30px 50px;
+}
+
+.wrapper .left p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.wrapper .left .download {
+  display: flex;
+}
+
+.wrapper .left .download p {
+  margin: -1px 0 50px 20px;
+  font-size: 18px;
+}
+
+.wrapper .left .download span a {
+  margin-left: 8px;
+  text-decoration: none;
+  color: #2A3032;
+}
+
+.wrapper .left .download span button {
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #2A3032;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: -8px;
+}
+
+.wrapper .left .sosmed {
+  margin-top: 50px;
+}
+
+.wrapper .left .sosmed a {
+  font-size: 20px;
+  margin-right: 10px;
+  border: 2px #2A3032;
+  border-radius: 50%;
+  background-color: #2A3032;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.wrapper .left .sosmed a i.fa-facebook-f {
+  padding: 0 3px;
+}
+
+.wrapper .right {
+  flex: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  border: 1px;
+  border-radius: 20px;
+  background-color: #2A3032;
+  color: #fff;
+  box-shadow: 0 0 20px rgb(42, 48, 50, .6);
+  margin: 30px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.container .header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container .content {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+/* contact form */
+.judul-form h1 {
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: -2vh;
+  color: #fff;
+}
+
+.contact-form {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form form label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact-form form input,
+textarea,
+select {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.contact-form form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form form button {
+  padding: 8px 30px;
+  font-size: 17px;
+  background: #FEE16B;
+  border-radius: 10px;
+  margin-left: 28vw;
+  border: none;
+  color: #2A3032;
+  cursor: pointer;
+}
